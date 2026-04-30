@@ -1,0 +1,22 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+  {% if qr %}
+  <img src="{{ qr }}">
+  <p>Scan this QR with Google Authenticator</p>
+  {% endif %}
+
+  <form method="POST" action="/verify">
+    <input name="code" placeholder="Enter 6-digit code" required>
+    <button type="submit">Verify</button>
+  </form>
+</body>
+</html>

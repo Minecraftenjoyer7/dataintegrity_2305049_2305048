@@ -1,0 +1,99 @@
+body{
+    background-color: #006eff28;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    display: flex;
+    font-size: 106px;
+    margin-top: 270px;
+    color: #333;
+    text-align: center;
+    justify-content: center;
+}
+
+h2{
+    display: flex;
+    font-size: 80px;
+    margin-top: 20px;
+    color: #333;
+    text-align: center;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    font-size: 24px;
+    margin-top: 20px;
+    color: #333;
+    text-align: center;
+    justify-content: center;
+}
+
+a {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 630px;
+    color: #006eff;
+    display: flex;
+    width: 200px;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+input {
+    display: flex;
+    font-size: 24px;
+    margin-top: 20px;
+    color: #333;
+    text-align: center;
+    justify-content: center;
+    width: 300px;
+    padding: 10px;
+    margin-left: 580px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+}
+
+select{
+    display: flex;
+    font-size: 24px;
+    margin-top: 20px;
+    color: #333;
+    text-align: center;
+    justify-content: center;
+    width: 300px;
+    padding: 10px;
+    margin-left: 590px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #006eff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 690px;
+    cursor: pointer;
+}
+
+img {
+    display: flex;
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 650px;
+}
+
+
